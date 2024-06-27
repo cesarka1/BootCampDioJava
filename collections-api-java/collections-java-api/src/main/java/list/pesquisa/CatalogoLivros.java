@@ -55,4 +55,20 @@ public class CatalogoLivros {
     }
 
 
+
+    public static void main(String[] args) {
+        CatalogoLivros catologoLivros = new CatalogoLivros();
+        catologoLivros.adicionarLivro("Livro A", "Autor X", 2010);
+        catologoLivros.adicionarLivro("Livro B", "Autor Y", 2015);
+        catologoLivros.adicionarLivro("Livro C", "Autor Z", 2020);
+        catologoLivros.adicionarLivro("Livro D", "Autor X", 2018);
+
+
+      System.out.println(catologoLivros.pesquisaPorAutor("Autor X"));
+
+      System.out.println(catologoLivros.pequisaPorIntevalosAnos(2015, 2020));
+
+
+    }
+
 }
