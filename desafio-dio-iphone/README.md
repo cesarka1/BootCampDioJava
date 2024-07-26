@@ -16,7 +16,7 @@ classDiagram
         +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
-    }
+    }  
 
     class iPhone {
     }
