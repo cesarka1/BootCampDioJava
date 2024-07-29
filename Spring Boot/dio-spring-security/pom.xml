@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dio</groupId>
-	<artifactId>my-first-web-api</artifactId>
+	<artifactId>dio-spring-security</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>my-first-web-api</name>
-	<description>Demo project for Spring Boot</description>
+	<name>dio-spring-security</name>
+	<description>Dio  Spring Security</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -32,6 +32,10 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
@@ -40,12 +44,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- SWAGGER DOCUMENTACAO -->
-<dependency>
-    <groupId>org.springdoc</groupId>
-    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-    <version>2.3.0</version>
-</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
